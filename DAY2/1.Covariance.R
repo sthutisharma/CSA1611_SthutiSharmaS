@@ -1,0 +1,7 @@
+A <- c(18,2,20)
+B <- c(22,28,10)
+C <- c(20,40,40)
+cov(B,C)
+cov(cbind(A,B,C))
+cor(B,C)
+cor(cbind(A,B,C))
